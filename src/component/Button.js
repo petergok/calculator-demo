@@ -13,7 +13,8 @@ export default class Button extends React.Component {
   handleClick = () => {
     this.props.clickHandler(this.props.name);
   };
-
+                              // Comment
+                              
   render() {
     const className = [
       "component-button",
